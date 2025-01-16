@@ -102,6 +102,12 @@ const config: Config = {
           label: "Modules",
         },
         {
+          type: "docSidebar",
+          position: "left",
+          sidebarId: "examples",
+          label: "Examples",
+        },
+        {
           href: "https://github.com/maplibre/maplibre-react-native",
           label: "GitHub",
           position: "right",
